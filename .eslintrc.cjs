@@ -19,7 +19,7 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    plugins: ['react', 'jsx-a11y'],
+    plugins: ['react', 'jsx-a11y', 'tailwindcss'],
     rules: {
         camelcase: 'off',
         indent: ['error', 4],
@@ -49,6 +49,7 @@ module.exports = {
         ],
         'import/no-extraneous-dependencies': 'off',
         'import/no-unresolved': 'off',
+        'tailwindcss/unknownAtRules': 'off',
     },
     settings: {
         react: {
