@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const footerSection = () => {
     return (
@@ -10,8 +10,10 @@ const footerSection = () => {
                         <h2 className="font-bold text-4xl text-white mb-5">Muhammad Nuh Ibnu Aimar Tamir</h2>
                         <h3 className="font-bold text-2xl mb-2">Contact Us</h3>
                         <p>noe.abarai20@gmail.com</p>
-                        <p>BTN Karangsembung Permai Blok E1 No. 25</p>
-                        <p>Cirebon</p>
+                        <a href="https://goo.gl/maps/thHnGnSZpdxTT1B79" target="_blank" rel="noreferrer" className="hover:text-primary">
+                            <p>BTN Karangsembung Permai Blok E1 No. 25</p>
+                            <p>Cirebon</p>
+                        </a>
                     </div>
                     <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
                         <h3 className="font-bold text-2xl mb-2">Connect With Us</h3>
@@ -111,7 +113,7 @@ const footerSection = () => {
                 </div>
             </div>
         </footer>
-    );
-};
+    )
+}
 
-export default footerSection;
+export default footerSection
