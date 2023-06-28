@@ -1,9 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    purge: ['./src/**/*.html', './src/**/*.jsx', './src/**/*.js'],
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
-        extend: {},
+        container: {
+            center: true,
+            padding: '16px',
+        },
+        extend: {
+            colors: {
+                primary: '#14b8a6',
+                secondary: '#64748b',
+                dark: '#0f172a',
+            },
+            screens: {
+                '2xl': '1320px',
+            },
+        },
     },
     plugins: [],
 };
